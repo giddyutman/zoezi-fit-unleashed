@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="relative overflow-hidden">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 bg-black/50 z-10"></div>
+      <div className="absolute inset-0 bg-black/70 z-10"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -19,15 +19,15 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Transform Your Body, <span className="text-zoezi-purple">Transform Your Life</span>
           </h1>
-          <p className="text-xl text-gray-200 mb-8">
+          <p className="text-xl text-gray-300 mb-8">
             At Zoezi Fit, we're committed to helping you achieve your fitness goals with state-of-the-art facilities, expert trainers, and a supportive community.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/pricing" className="btn-primary">
+            <Link to="/contact" className="btn-primary">
               Join Now
             </Link>
-            <Link to="/schedule" className="btn-secondary text-white border-white hover:text-zoezi-dark hover:border-zoezi-light-purple">
-              Book a Class
+            <Link to="/services" className="btn-secondary text-white border-white hover:text-zoezi-dark hover:border-zoezi-light-purple">
+              Our Services
             </Link>
           </div>
         </div>

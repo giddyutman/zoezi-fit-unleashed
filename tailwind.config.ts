@@ -59,6 +59,7 @@ export default {
 					'dark-purple': '#7E69AB', 
 					'light-purple': '#D6BCFA',
 					dark: '#1A1F2C',
+					'dark-card': '#222232',
 					light: '#F6F6F7',
 					gray: '#8E9196'
 				}
